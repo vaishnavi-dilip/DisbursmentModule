@@ -10,7 +10,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="tenure_DB")
+@Table(name="tenure_DB1")
 public class Tenure{
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
